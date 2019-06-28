@@ -1,0 +1,7 @@
+dubbo:
+  #配置注册中心的地址，便于注册服务
+  registry:
+    address: zookeeper://192.168.114.168:2181
+      #配置一个应用名称
+  application:
+    name: dubbo_provider
